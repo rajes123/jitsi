@@ -1,0 +1,73 @@
+Mar 09 06:25:02 general	info	Re-opening log files
+Mar 09 06:50:54 boshcbd72a11-aeb9-437e-bfa5-0b8f9760d01d	info	BOSH client disconnected
+Mar 09 06:50:56 mod_bosh	info	New BOSH session, assigned it sid '79949fbe-e519-4d03-8a08-1bb3e212c224'
+Mar 09 06:50:56 bosh79949fbe-e519-4d03-8a08-1bb3e212c224	info	BOSH client disconnected
+Mar 09 06:51:06 mod_bosh	info	New BOSH session, assigned it sid '4c7c402c-ff6c-4874-bbb7-248f97cee42a'
+Mar 09 06:51:06 bosh4c7c402c-ff6c-4874-bbb7-248f97cee42a	info	Authenticated as raaz@vconference.streamed.co.in
+Mar 09 07:06:10 mod_posix	info	Received SIGHUP
+Mar 09 07:06:10 general	info	Reloading configuration file
+Mar 09 07:06:10 general	info	Re-opening log files
+Mar 09 07:09:36 jcp560195ae0960	info	component disconnected: focus.vconference.streamed.co.in (false)
+Mar 09 07:09:37 c2s560195af4040	info	Client disconnected: closed
+Mar 09 07:09:39 c2s560195fc9dd0	info	Client connected
+Mar 09 07:09:40 c2s560195fc9dd0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Mar 09 07:09:41 c2s560195fc9dd0	info	Authenticated as focus@auth.vconference.streamed.co.in
+Mar 09 07:09:41 focus.vconference.streamed.co.in:component	warn	Component not connected, bouncing error for: <iq id='9FmPl-33' type='get' to='focus.vconference.streamed.co.in' from='focus@auth.vconference.streamed.co.in/focus3894188659474658'>
+Mar 09 07:09:42 jcp5601956b6f00	info	Incoming Jabber component connection
+Mar 09 07:09:42 focus.vconference.streamed.co.in:component	info	External component successfully authenticated
+Mar 09 07:09:53 bosh4c7c402c-ff6c-4874-bbb7-248f97cee42a	info	BOSH client disconnected
+Mar 09 07:09:54 mod_bosh	info	New BOSH session, assigned it sid '0483fefb-32ac-4524-90d0-fb43ef5e26f5'
+Mar 09 07:09:54 bosh0483fefb-32ac-4524-90d0-fb43ef5e26f5	info	BOSH client disconnected
+Mar 09 07:13:50 mod_posix	warn	Received SIGTERM
+Mar 09 07:13:50 general	info	Shutting down: Received SIGTERM
+Mar 09 07:13:50 c2s560195aeaaf0	info	Client disconnected: connection closed
+Mar 09 07:13:50 c2s560195fc9dd0	info	Client disconnected: connection closed
+Mar 09 07:13:50 jcp560195b47750	info	component disconnected: jitsi-videobridge.vconference.streamed.co.in (false)
+Mar 09 07:13:50 jcp5601956b6f00	info	component disconnected: focus.vconference.streamed.co.in (false)
+Mar 09 07:13:50 general	info	Shutting down...
+Mar 09 07:13:50 general	info	Shutdown status: Cleaning up
+Mar 09 07:13:50 general	info	Shutdown complete
+Mar 09 07:13:50 general	info	Hello and welcome to Prosody version trunk nightly build 747 (2017-02-19, 428d4abee723)
+Mar 09 07:13:50 general	info	Prosody is using the select backend for connection handling
+Mar 09 07:13:50 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Mar 09 07:13:50 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Mar 09 07:13:50 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Mar 09 07:13:50 portmanager	info	Activated service 'https' on no ports
+Mar 09 07:13:50 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Mar 09 07:13:50 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Mar 09 07:13:50 portmanager	info	Activated service 'legacy_ssl' on no ports
+Mar 09 07:13:50 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Mar 09 07:13:50 mod_posix	info	Successfully daemonized to PID 11167
+Mar 09 07:13:50 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Mar 09 07:13:50 modulemanager	error	Unable to load module 'storage_memory': /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	error	Failed to load storage driver plugin memory on conference.vconference.streamed.co.in: /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	warn	Falling back to null driver for persistent storage on conference.vconference.streamed.co.in
+Mar 09 07:13:50 modulemanager	error	Unable to load module 'storage_memory': /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	error	Failed to load storage driver plugin memory on conference.vconference.streamed.co.in: /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	warn	Falling back to null driver for persistent storage on conference.vconference.streamed.co.in
+Mar 09 07:13:50 modulemanager	error	Unable to load module 'storage_memory': /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	error	Failed to load storage driver plugin memory on conference.vconference.streamed.co.in: /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	warn	Falling back to null driver for config storage on conference.vconference.streamed.co.in
+Mar 09 07:13:50 modulemanager	error	Unable to load module 'storage_memory': /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	error	Failed to load storage driver plugin memory on conference.vconference.streamed.co.in: /usr/lib/prosody/modules/mod_storage_memory.lua: No such file or directory
+Mar 09 07:13:50 storagemanager	warn	Falling back to null driver for state storage on conference.vconference.streamed.co.in
+Mar 09 07:13:50 certmanager	error	SSL/TLS: Failed to load '/etc/prosody/certs/localhost.key': Check that the permissions allow Prosody to read this file. (for localhost)
+Mar 09 07:13:50 localhost:tls	error	Error creating context for c2s: error loading private key (Permission denied)
+Mar 09 07:13:50 certmanager	error	SSL/TLS: Failed to load '/etc/prosody/certs/localhost.key': Previous error (see logs), or other system error. (for localhost)
+Mar 09 07:13:50 localhost:tls	error	Error creating contexts for s2sout: error loading private key (system lib)
+Mar 09 07:13:50 certmanager	error	SSL/TLS: Failed to load '/etc/prosody/certs/localhost.key': Previous error (see logs), or other system error. (for localhost)
+Mar 09 07:13:50 localhost:tls	error	Error creating contexts for s2sin: error loading private key (system lib)
+Mar 09 07:13:53 jcp5634bf53c2f0	info	Incoming Jabber component connection
+Mar 09 07:13:53 focus.vconference.streamed.co.in:component	info	External component successfully authenticated
+Mar 09 07:13:54 c2s5634bf545400	info	Client connected
+Mar 09 07:13:54 c2s5634bf545400	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Mar 09 07:13:54 c2s5634bf545400	info	Authenticated as focus@auth.vconference.streamed.co.in
+Mar 09 07:13:54 jitsi-videobridge.vconference.streamed.co.in:component	warn	Component not connected, bouncing error for: <iq id='9FmPl-216' type='get' to='jitsi-videobridge.vconference.streamed.co.in' from='focus@auth.vconference.streamed.co.in/focus3894188659474658'>
+Mar 09 07:13:57 c2s5634bf596c70	info	Client connected
+Mar 09 07:13:57 c2s5634bf596c70	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES256-GCM-SHA384)
+Mar 09 07:14:09 jcp5634bf5b8890	info	Incoming Jabber component connection
+Mar 09 07:14:09 jitsi-videobridge.vconference.streamed.co.in:component	info	External component successfully authenticated
+Mar 09 07:15:27 mod_bosh	info	New BOSH session, assigned it sid '17111685-79b1-445f-9c2b-23b85944dbd0'
+Mar 09 07:15:27 bosh17111685-79b1-445f-9c2b-23b85944dbd0	info	BOSH client disconnected
+Mar 09 07:15:35 mod_bosh	info	New BOSH session, assigned it sid 'dcdd2945-a078-4cfb-98af-b50ae737c0d8'
+Mar 09 07:15:35 boshdcdd2945-a078-4cfb-98af-b50ae737c0d8	info	Authenticated as raaz@vconference.streamed.co.in
