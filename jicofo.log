@@ -1,0 +1,196 @@
+Jicofo 2020-03-09 06:50:54.177 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Chat room event ChatRoomMemberPresenceChangeEvent[type=MemberLeft sourceRoom=org.jitsi.impl.protocol.xmpp.ChatRoomImpl@71c78138 member=ChatMember[err45678@conference.vconference.streamed.co.in/6f133124, jid: raaz@vconference.streamed.co.in/d6be63ce-5ad1-49ca-a299-c9dd50a34315]@970936732]
+Jicofo 2020-03-09 06:50:54.180 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Owner has left the room !
+Jicofo 2020-03-09 06:50:54.180 INFO: [27] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Member err45678@conference.vconference.streamed.co.in/6f133124 is leaving
+Jicofo 2020-03-09 06:50:54.180 WARNING: [27] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Participant not found for err45678@conference.vconference.streamed.co.in/6f133124 terminated already or never started ?
+Jicofo 2020-03-09 06:50:54.197 INFO: [27] org.jitsi.jicofo.FocusManager.log() Disposed conference for room: err45678@conference.vconference.streamed.co.in conference count: 0
+Jicofo 2020-03-09 06:51:07.275 INFO: [98] org.jitsi.jicofo.xmpp.FocusComponent.handleConferenceIq().401 Focus request for room: err45678@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 06:51:07.279 INFO: [98] org.jitsi.jicofo.FocusManager.log() Created new focus for err45678@conference.vconference.streamed.co.in@auth.vconference.streamed.co.in. Conference count 1,options: 
+Jicofo 2020-03-09 06:51:07.279 INFO: [98] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Lip-sync enabled in err45678@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 06:51:07.279 INFO: [98] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Joining the room: err45678@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 06:51:07.584 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Chat room event ChatRoomMemberPresenceChangeEvent[type=MemberJoined sourceRoom=org.jitsi.impl.protocol.xmpp.ChatRoomImpl@a3071e6 member=ChatMember[err45678@conference.vconference.streamed.co.in/a2589868, jid: null]@1202974681]
+Jicofo 2020-03-09 06:51:07.594 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Granted owner to err45678@conference.vconference.streamed.co.in/a2589868
+Jicofo 2020-03-09 06:51:07.594 INFO: [27] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Member err45678@conference.vconference.streamed.co.in/a2589868 joined.
+Jicofo 2020-03-09 06:51:19.732 SEVERE: [169] org.jitsi.jicofo.recording.jibri.JibriSession.log() Unable to find an available Jibri, can't start
+Jicofo 2020-03-09 06:51:19.732 INFO: [169] org.jitsi.jicofo.recording.jibri.JibriRecorder.log() Failed to start a Jibri session, no Jibris available
+Jicofo 2020-03-09 06:51:47.230 SEVERE: [169] org.jitsi.jicofo.recording.jibri.JibriSession.log() Unable to find an available Jibri, can't start
+Jicofo 2020-03-09 06:51:47.232 INFO: [169] org.jitsi.jicofo.recording.jibri.JibriRecorder.log() Failed to start a Jibri session, no Jibris available
+Jicofo 2020-03-09 07:09:38.030 INFO: [10] org.jitsi.service.libjitsi.LibJitsi.log() Successfully started LibJitsi using as implementation: org.jitsi.impl.libjitsi.LibJitsiOSGiImpl
+Jicofo 2020-03-09 07:09:38.072 INFO: [10] impl.configuration.ConfigurationActivator.log() Using properties file configuration store.
+Jicofo 2020-03-09 07:09:38.082 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.HOSTNAME=localhost
+Jicofo 2020-03-09 07:09:38.083 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.runtime.name=OpenJDK Runtime Environment
+Jicofo 2020-03-09 07:09:38.083 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+Jicofo 2020-03-09 07:09:38.084 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.version=25.242-b08
+Jicofo 2020-03-09 07:09:38.084 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.vendor=Private Build
+Jicofo 2020-03-09 07:09:38.085 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vendor.url=http://java.oracle.com/
+Jicofo 2020-03-09 07:09:38.087 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() path.separator=:
+Jicofo 2020-03-09 07:09:38.087 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.util.logging.config.file=/etc/jitsi/jicofo/logging.properties
+Jicofo 2020-03-09 07:09:38.088 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.name=OpenJDK 64-Bit Server VM
+Jicofo 2020-03-09 07:09:38.088 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() file.encoding.pkg=sun.io
+Jicofo 2020-03-09 07:09:38.089 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.java.launcher=SUN_STANDARD
+Jicofo 2020-03-09 07:09:38.089 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.os.patch.level=unknown
+Jicofo 2020-03-09 07:09:38.090 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.service.media.DISABLE_AUDIO_SUPPORT=true
+Jicofo 2020-03-09 07:09:38.091 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.specification.name=Java Virtual Machine Specification
+Jicofo 2020-03-09 07:09:38.092 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() user.dir=/usr/share/jicofo
+Jicofo 2020-03-09 07:09:38.092 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.FOCUS_USER_PASSWORD=**********
+Jicofo 2020-03-09 07:09:38.093 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+Jicofo 2020-03-09 07:09:38.093 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+Jicofo 2020-03-09 07:09:38.093 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+Jicofo 2020-03-09 07:09:38.094 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() os.arch=amd64
+Jicofo 2020-03-09 07:09:38.097 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.io.tmpdir=/tmp
+Jicofo 2020-03-09 07:09:38.098 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() line.separator=
+
+Jicofo 2020-03-09 07:09:38.098 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.specification.vendor=Oracle Corporation
+Jicofo 2020-03-09 07:09:38.099 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() os.name=Linux
+Jicofo 2020-03-09 07:09:38.099 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.jnu.encoding=UTF-8
+Jicofo 2020-03-09 07:09:38.100 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.CONFIGURATION_FILE_IS_READ_ONLY=true
+Jicofo 2020-03-09 07:09:38.100 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.FOCUS_USER_DOMAIN=auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:38.102 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.library.path=/usr/share/jicofo/lib/native/linux-64
+Jicofo 2020-03-09 07:09:38.102 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.specification.name=Java Platform API Specification
+Jicofo 2020-03-09 07:09:38.102 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.class.version=52.0
+Jicofo 2020-03-09 07:09:38.103 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.service.audionotifier.AudioNotifierService=org.jitsi.impl.neomedia.notify.AudioNotifierServiceImpl
+Jicofo 2020-03-09 07:09:38.104 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+Jicofo 2020-03-09 07:09:38.104 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() os.version=4.15.0-66-generic
+Jicofo 2020-03-09 07:09:38.105 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() user.home=/usr/share/jicofo
+Jicofo 2020-03-09 07:09:38.105 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() user.timezone=Etc/UTC
+Jicofo 2020-03-09 07:09:38.107 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.awt.printerjob=sun.print.PSPrinterJob
+Jicofo 2020-03-09 07:09:38.107 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.FOCUS_USER_NAME=focus
+Jicofo 2020-03-09 07:09:38.108 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() file.encoding=UTF-8
+Jicofo 2020-03-09 07:09:38.108 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.specification.version=1.8
+Jicofo 2020-03-09 07:09:38.108 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.service.media.DISABLE_VIDEO_SUPPORT=true
+Jicofo 2020-03-09 07:09:38.109 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.XMPP_DOMAIN=vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:38.115 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.class.path=/usr/share/jicofo/jicofo.jar:/usr/share/jicofo/lib/agafua-syslog-0.4.jar:/usr/share/jicofo/lib/annotations-15.0.jar:/usr/share/jicofo/lib/aopalliance-repackaged-2.5.0.jar:/usr/share/jicofo/lib/bccontrib-1.0.jar:/usr/share/jicofo/lib/bcpkix-jdk15on-1.54.jar:/usr/share/jicofo/lib/bcprov-jdk15on-1.54.jar:/usr/share/jicofo/lib/cglib-nodep-2.2.jar:/usr/share/jicofo/lib/commons-codec-1.6.jar:/usr/share/jicofo/lib/commons-lang3-3.1.jar:/usr/share/jicofo/lib/commons-logging-1.2.jar:/usr/share/jicofo/lib/concurrentlinkedhashmap-lru-1.0_jdk5.jar:/usr/share/jicofo/lib/core-2.0.1.jar:/usr/share/jicofo/lib/dnsjava-2.1.7.jar:/usr/share/jicofo/lib/dom4j-1.6.1.jar:/usr/share/jicofo/lib/fmj-1.0-20190327.151046-25.jar:/usr/share/jicofo/lib/guava-15.0.jar:/usr/share/jicofo/lib/hk2-api-2.5.0.jar:/usr/share/jicofo/lib/hk2-locator-2.5.0.jar:/usr/share/jicofo/lib/hk2-utils-2.5.0.jar:/usr/share/jicofo/lib/httpclient-4.4.1.jar:/usr/share/jicofo/lib/httpcore-4.4.1.jar:/usr/share/jicofo/lib/ice4j-3.0-1-ge854e4e.jar:/usr/share/jicofo/lib/jackson-annotations-2.9.9.jar:/usr/share/jicofo/lib/jackson-core-2.9.9.jar:/usr/share/jicofo/lib/jackson-databind-2.9.9.jar:/usr/share/jicofo/lib/jackson-module-jaxb-annotations-2.9.9.jar:/usr/share/jicofo/lib/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar:/usr/share/jicofo/lib/jakarta.annotation-api-1.3.4.jar:/usr/share/jicofo/lib/jakarta.inject-2.5.0.jar:/usr/share/jicofo/lib/jakarta.ws.rs-api-2.1.5.jar:/usr/share/jicofo/lib/java-dogstatsd-client-2.5.jar:/usr/share/jicofo/lib/java-sdp-nist-bridge-1.1.jar:/usr/share/jicofo/lib/javassist-3.22.0-CR2.jar:/usr/share/jicofo/lib/javax.servlet-api-3.1.0.jar:/usr/share/jicofo/lib/jbosh-0.9.1.jar:/usr/share/jicofo/lib/jcip-annotations-1.0.jar:/usr/share/jicofo/lib/jcl-core-2.8.jar:/usr/share/jicofo/lib/jersey-client-2.29.jar:/usr/share/jicofo/lib/jersey-common-2.29.jar:/usr/share/jicofo/lib/jersey-container-jetty-http-2.29.jar:/usr/share/jicofo/lib/jersey-container-servlet-2.29.jar:/usr/share/jicofo/lib/jersey-container-servlet-core-2.29.jar:/usr/share/jicofo/lib/jersey-entity-filtering-2.29.jar:/usr/share/jicofo/lib/jersey-hk2-2.29.jar:/usr/share/jicofo/lib/jersey-media-jaxb-2.29.jar:/usr/share/jicofo/lib/jersey-media-json-jackson-2.29.jar:/usr/share/jicofo/lib/jersey-server-2.29.jar:/usr/share/jicofo/lib/jetty-client-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-continuation-9.4.12.v20180830.jar:/usr/share/jicofo/lib/jetty-http-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-io-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-proxy-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-security-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-server-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-servlet-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-util-9.4.15.v20190215.jar:/usr/share/jicofo/lib/jetty-webapp-7.0.1.v20091125.jar:/usr/share/jicofo/lib/jetty-xml-7.0.1.v20091125.jar:/usr/share/jicofo/lib/jicoco-1.1-5-g6ee23f2.jar:/usr/share/jicofo/lib/jitsi-android-osgi-1.0-20180322.162617-2.jar:/usr/share/jicofo/lib/jitsi-configuration-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-credentialsstorage-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-dnsservice-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-netaddr-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-protocol-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-protocol-jabber-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-protocol-media-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-util-2.13.cb5485e.jar:/usr/share/jicofo/lib/jitsi-utils-1.0-19-ge5cd0ce.jar:/usr/share/jicofo/lib/jitsi-xmpp-extensions-1.0-3-gf1ce0d7.jar:/usr/share/jicofo/lib/jna-4.1.0.jar:/usr/share/jicofo/lib/jnsapi-0.0.3-jitsi-smack4.2-3.jar:/usr/share/jicofo/lib/json-simple-1.1.1.jar:/usr/share/jicofo/lib/jxmpp-core-0.6.2.jar:/usr/share/jicofo/lib/jxmpp-jid-0.6.2.jar:/usr/share/jicofo/lib/jxmpp-util-cache-0.6.2.jar:/usr/share/jicofo/lib/libidn-1.15.jar:/usr/share/jicofo/lib/libjitsi-1.0-3-gd07c465.jar:/usr/share/jicofo/lib/object-cloner-0.1.jar:/usr/share/jicofo/lib/objenesis-2.6.jar:/usr/share/jicofo/lib/orange-extensions-1.3.0.jar:/usr/share/jicofo/lib/org.apache.felix.framework-4.4.0.jar:/usr/share/jicofo/lib/org.apache.felix.main-4.4.0.jar:/usr/share/jicofo/lib/org.osgi.core-4.3.1.jar:/usr/share/jicofo/lib/osgi-resource-locator-1.0.3.jar:/usr/share/jicofo/lib/reflections-0.9.11.jar:/usr/share/jicofo/lib/sdes4j-1.1.3.jar:/usr/share/jicofo/lib/sdp-api-1.0.jar:/usr/share/jicofo/lib/slf4j-api-1.7.26.jar:/usr/share/jicofo/lib/slf4j-jdk14-1.7.26.jar:/usr/share/jicofo/lib/smack-bosh-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-core-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-debug-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-experimental-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-extensions-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-im-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-java7-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-legacy-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-resolver-javax-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-sasl-javax-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/smack-tcp-4.2.4-47d17fc.jar:/usr/share/jicofo/lib/tinder-1.3.0.jar:/usr/share/jicofo/lib/validation-api-2.0.1.Final.jar:/usr/share/jicofo/lib/weupnp-0.1.4.jar:/usr/share/jicofo/lib/xml-apis-1.0.b2.jar:/usr/share/jicofo/lib/xmlpull-1.1.3.4a.jar:/usr/share/jicofo/lib/xpp3-1.1.4c.jar:/usr/share/jicofo/lib/zrtp4j-light-4.1.0-jitsi-1-20190327.161225-1.jar
+Jicofo 2020-03-09 07:09:38.115 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() user.name=jicofo
+Jicofo 2020-03-09 07:09:38.116 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.specification.version=1.8
+Jicofo 2020-03-09 07:09:38.117 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.java.command=org.jitsi.jicofo.Main --host=localhost --domain=vconference.streamed.co.in --port=5347 --secret=X --user_name=focus --user_domain=auth.vconference.streamed.co.in --user_password=X
+Jicofo 2020-03-09 07:09:38.117 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+Jicofo 2020-03-09 07:09:38.121 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.arch.data.model=64
+Jicofo 2020-03-09 07:09:38.122 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() user.language=en
+Jicofo 2020-03-09 07:09:38.126 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.specification.vendor=Oracle Corporation
+Jicofo 2020-03-09 07:09:38.126 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() awt.toolkit=sun.awt.X11.XToolkit
+Jicofo 2020-03-09 07:09:38.126 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vm.info=mixed mode
+Jicofo 2020-03-09 07:09:38.126 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.version=1.8.0_242
+Jicofo 2020-03-09 07:09:38.127 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+Jicofo 2020-03-09 07:09:38.127 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+Jicofo 2020-03-09 07:09:38.127 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.SC_HOME_DIR_LOCATION=/etc/jitsi
+Jicofo 2020-03-09 07:09:38.128 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vendor=Private Build
+Jicofo 2020-03-09 07:09:38.128 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() file.separator=/
+Jicofo 2020-03-09 07:09:38.128 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.impl.configuration.USE_PROPFILE_CONFIG=true
+Jicofo 2020-03-09 07:09:38.128 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.SC_HOME_DIR_NAME=jicofo
+Jicofo 2020-03-09 07:09:38.129 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+Jicofo 2020-03-09 07:09:38.129 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.io.unicode.encoding=UnicodeLittle
+Jicofo 2020-03-09 07:09:38.129 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.cpu.endian=little
+Jicofo 2020-03-09 07:09:38.135 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.SC_LOG_DIR_LOCATION=/var/log/jitsi
+Jicofo 2020-03-09 07:09:38.135 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() sun.cpu.isalist=
+Jicofo 2020-03-09 07:09:38.136 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() Normal classloader
+Jicofo 2020-03-09 07:09:38.136 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() failed to find jitsi-defaults.properties with class loader, will continue without it.
+Jicofo 2020-03-09 07:09:38.142 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() Normal classloader
+Jicofo 2020-03-09 07:09:38.142 INFO: [10] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() failed to find jitsi-default-overrides.properties with class loader, will continue without it.
+Jicofo 2020-03-09 07:09:38.214 INFO: [10] util.NetworkUtils.<clinit>().117 java.net.preferIPv6Addresses=null
+Jicofo 2020-03-09 07:09:38.214 INFO: [10] util.NetworkUtils.<clinit>().118 java.net.preferIPv4Stack=null
+Jicofo 2020-03-09 07:09:38.229 INFO: [10] impl.netaddr.NetworkAddressManagerServiceImpl.start().92 Network Address Manager         ...[  STARTED ]
+Jicofo 2020-03-09 07:09:38.230 INFO: [10] impl.netaddr.NetworkAddressManagerServiceImpl.start().98 Network Address Manager Service ...[REGISTERED]
+Jicofo 2020-03-09 07:09:38.245 INFO: [10] org.jitsi.version.AbstractVersionActivator.log() VersionService registered: JiCoFo 1.0.1.0-508
+Jicofo 2020-03-09 07:09:39.010 INFO: [10] org.jitsi.jicofo.JitsiMeetGlobalConfig.init().205 Automatically grant 'owner' role: true
+Jicofo 2020-03-09 07:09:39.010 INFO: [10] org.jitsi.jicofo.JitsiMeetGlobalConfig.init().218 Jibri requests in PENDING state will be timed out after: 90 seconds
+Jicofo 2020-03-09 07:09:39.011 INFO: [10] org.jitsi.jicofo.JitsiMeetGlobalConfig.init().231 Will attempt a maximum of 5 Jibri retries after failure
+Jicofo 2020-03-09 07:09:39.011 INFO: [10] org.jitsi.jicofo.JitsiMeetGlobalConfig.init().245 Lonely participants will be "terminated" after 20000 milliseconds
+Jicofo 2020-03-09 07:09:39.059 INFO: [10] org.jitsi.jicofo.BridgeSelector.log() Using org.jitsi.jicofo.BridgeSelector$SingleBridgeSelectionStrategy
+Jicofo 2020-03-09 07:09:39.059 INFO: [10] org.jitsi.jicofo.BridgeSelector.log() Bridge failure reset threshold: 300000
+Jicofo 2020-03-09 07:09:39.059 INFO: [10] org.jitsi.jicofo.BridgeSelector.log() Local region: null
+Jicofo 2020-03-09 07:09:39.067 INFO: [10] org.jitsi.jicofo.JitsiMeetServices.log() Using a Jibri detector with MUC: JibriBrewery@internal.auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:39.192 INFO: [10] org.eclipse.jetty.util.log.initialized() Logging initialized @2116ms to org.eclipse.jetty.util.log.Slf4jLog
+Jicofo 2020-03-09 07:09:40.242 INFO: [10] org.eclipse.jetty.server.Server.doStart() jetty-9.4.15.v20190215; built: 2019-02-15T16:53:49.381Z; git: eb70b240169fcf1abbd86af36482d1c49826fa0b; jvm 1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+Jicofo 2020-03-09 07:09:41.190 INFO: [16] org.jitsi.jicofo.xmpp.BaseBrewery.start().186 Joined brewery room: JibriBrewery@internal.auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:41.233 SEVERE: [16] org.jitsi.jicofo.discovery.DiscoveryUtil.discoverVersion().200 Failed to discover version, req: <iq to='jitsi-videobridge.vconference.streamed.co.in' id='9FmPl-37' type='get'><query xmlns='jabber:iq:version'></query></iq>, response: <iq to='focus@auth.vconference.streamed.co.in/focus3894188659474658' from='jitsi-videobridge.vconference.streamed.co.in' id='9FmPl-37' type='error'><error type='cancel'><service-unavailable xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/></error></iq>
+Jicofo 2020-03-09 07:09:41.233 INFO: [16] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: jitsi-videobridge.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:09:41.233 INFO: [16] org.jitsi.jicofo.BridgeSelector.log() Added videobridge: jitsi-videobridge.vconference.streamed.co.in v: null
+Jicofo 2020-03-09 07:09:41.236 WARNING: [16] org.jitsi.jicofo.BridgeSelector.log() No pub-sub node mapped for jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:41.251 INFO: [16] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: conference.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:09:41.251 INFO: [16] org.jitsi.jicofo.JitsiMeetServices.log() MUC component discovered: conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:41.259 INFO: [16] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: recorder.vconference.streamed.co.in, IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=recorder.vconference.streamed.co.in,id=9FmPl-43,type=result,]
+Jicofo 2020-03-09 07:09:41.263 INFO: [16] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: auth.vconference.streamed.co.in, IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=auth.vconference.streamed.co.in,id=9FmPl-48,type=result,]
+Jicofo 2020-03-09 07:09:41.263 INFO: [16] org.jitsi.jicofo.JitsiMeetServices.log() Detected XMPP server version: IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=auth.vconference.streamed.co.in,id=9FmPl-48,type=result,]
+Jicofo 2020-03-09 07:09:41.263 INFO: [16] org.jitsi.jicofo.ComponentsDiscovery.log() Services re-discovery interval: 30000
+Jicofo 2020-03-09 07:09:41.273 INFO: [16] org.jitsi.jicofo.FocusManager.log() XMPP provider reg state: RegistrationState=Registered
+Jicofo 2020-03-09 07:09:41.322 INFO: [16] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.doConnect().299 XMPP provider Jabber:focus@auth.vconference.streamed.co.in/focus3894188659474658@localhost connected (JID: focus@auth.vconference.streamed.co.in/focus3894188659474658)
+Jicofo 2020-03-09 07:09:42.802 INFO: [10] org.eclipse.jetty.server.handler.ContextHandler.doStart() Started o.e.j.s.ServletContextHandler@80fb047{/,null,AVAILABLE}
+Jicofo 2020-03-09 07:09:42.878 INFO: [10] org.eclipse.jetty.server.AbstractConnector.doStart() Started MuxServerConnector@3d402ee9{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+Jicofo 2020-03-09 07:09:42.879 INFO: [10] org.eclipse.jetty.server.Server.doStart() Started @5813ms
+Jicofo 2020-03-09 07:09:42.888 INFO: [1] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
+Jicofo 2020-03-09 07:09:42.888 INFO: [1] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() net.java.sip.communicator.impl.protocol.jabber.extensions.caps.EntityCapsManager.CAPS.http://prosody.im#wBlvgkM1+mhpz81eJoge4hYoI0Q==<query xmlns='http://jabber.org/protocol/disco#info' node='http://prosody.im#wBlvgkM1+mhpz81eJoge4hYoI0Q='><identity category='server' name='Prosody' type='im'/><identity category='pubsub' name='Prosody' type='pep'/><feature var='urn:xmpp:carbons:2'/><feature var='jabber:iq:register'/><feature var='vcard-temp'/><feature var='http://jabber.org/protocol/commands'/><feature var='jabber:iq:roster'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:time'/><feature var='jabber:iq:private'/><feature var='urn:xmpp:ping'/><feature var='jabber:iq:version'/><feature var='urn:xmpp:blocking'/><feature var='msgoffline'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='jabber:iq:last'/><feature var='http://jabber.org/protocol/pubsub#publish'/></query>
+Jicofo 2020-03-09 07:09:42.889 INFO: [1] org.jitsi.impl.configuration.ConfigurationServiceImpl.log() org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:09:42.896 INFO: [1] org.jitsi.xmpp.component.ComponentBase.log() Component org.jitsi.jicofo. config: 
+Jicofo 2020-03-09 07:09:42.896 INFO: [1] org.jitsi.xmpp.component.ComponentBase.log()   ping interval: 10000 ms
+Jicofo 2020-03-09 07:09:42.896 INFO: [1] org.jitsi.xmpp.component.ComponentBase.log()   ping timeout: 5000 ms
+Jicofo 2020-03-09 07:09:42.897 INFO: [1] org.jitsi.xmpp.component.ComponentBase.log()   ping threshold: 3
+Jicofo 2020-03-09 07:10:11.300 INFO: [29] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: focus.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:13:50.519 WARNING: [18] org.jivesoftware.smack.AbstractXMPPConnection.callConnectionClosedOnErrorListener() Connection XMPPTCPConnection[focus@auth.vconference.streamed.co.in/focus3894188659474658] (0) closed with error
+org.jivesoftware.smack.XMPPException$StreamErrorException: system-shutdown You can read more about the meaning of this stream error at http://xmpp.org/rfcs/rfc6120.html#streams-error-conditions
+<stream:error><system-shutdown xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text>Received SIGTERM</text></stream:error>
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1064)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$300(XMPPTCPConnection.java:1000)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:1016)
+	at java.lang.Thread.run(Thread.java:748)
+Jicofo 2020-03-09 07:13:50.533 SEVERE: [18] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.connectionClosedOnError().641 XMPP connection closed on error: system-shutdown You can read more about the meaning of this stream error at http://xmpp.org/rfcs/rfc6120.html#streams-error-conditions
+<stream:error><system-shutdown xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text>Received SIGTERM</text></stream:error>
+Jicofo 2020-03-09 07:13:50.542 INFO: [18] org.jitsi.jicofo.xmpp.BaseBrewery.stop().206 Left brewery room: JibriBrewery@internal.auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.553 INFO: [18] org.jitsi.jicofo.ComponentsDiscovery.log() Connection lost - component offline: jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.563 INFO: [18] org.jitsi.jicofo.BridgeSelector.log() Removing JVB: jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.567 INFO: [18] org.jitsi.jicofo.ComponentsDiscovery.log() Connection lost - component offline: focus.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.567 INFO: [18] org.jitsi.jicofo.ComponentsDiscovery.log() Connection lost - component offline: conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.568 WARNING: [18] org.jitsi.jicofo.JitsiMeetServices.log() MUC component went offline: conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.568 INFO: [18] org.jitsi.jicofo.ComponentsDiscovery.log() Connection lost - component offline: recorder.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.576 INFO: [18] org.jitsi.jicofo.ComponentsDiscovery.log() Connection lost - component offline: auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:50.576 INFO: [18] org.jitsi.jicofo.FocusManager.log() XMPP provider reg state: RegistrationState=Unregistered
+Jicofo 2020-03-09 07:13:50.583 WARNING: [84] org.jitsi.jicofo.JvbDoctor.log() Trying to remove a bridge that does not exist anymore: jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:51.535 INFO: [83] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.reconnectingIn().684 XMPP reconnecting in: 3
+Jicofo 2020-03-09 07:13:52.536 INFO: [83] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.reconnectingIn().684 XMPP reconnecting in: 2
+Jicofo 2020-03-09 07:13:53.051 SEVERE: [39] org.jivesoftware.whack.ExternalComponentManager.error() 
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:272)
+	at org.jivesoftware.whack.ExternalComponent.send(ExternalComponent.java:371)
+	at org.jivesoftware.whack.ExternalComponentManager.sendPacket(ExternalComponentManager.java:269)
+	at org.xmpp.component.AbstractComponent.send(AbstractComponent.java:925)
+	at org.jitsi.xmpp.component.ComponentBase.access$400(ComponentBase.java:36)
+	at org.jitsi.xmpp.component.ComponentBase$PingTask.run(ComponentBase.java:577)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Jicofo 2020-03-09 07:13:53.538 INFO: [83] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.reconnectingIn().684 XMPP reconnecting in: 1
+Jicofo 2020-03-09 07:13:54.539 INFO: [83] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.reconnectingIn().684 XMPP reconnecting in: 0
+Jicofo 2020-03-09 07:13:54.542 INFO: [83] org.jitsi.impl.protocol.xmpp.XmppProtocolProvider.reconnectingIn().684 XMPP reconnecting in: 0
+Jicofo 2020-03-09 07:13:54.727 INFO: [83] org.jitsi.jicofo.xmpp.BaseBrewery.start().186 Joined brewery room: JibriBrewery@internal.auth.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:54.736 INFO: [83] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: focus.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:13:54.739 INFO: [83] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: conference.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:13:54.739 INFO: [83] org.jitsi.jicofo.JitsiMeetServices.log() MUC component discovered: conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:13:54.741 INFO: [83] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: recorder.vconference.streamed.co.in, IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=recorder.vconference.streamed.co.in,id=9FmPl-222,type=result,]
+Jicofo 2020-03-09 07:13:54.744 INFO: [83] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: auth.vconference.streamed.co.in, IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=auth.vconference.streamed.co.in,id=9FmPl-227,type=result,]
+Jicofo 2020-03-09 07:13:54.744 INFO: [83] org.jitsi.jicofo.JitsiMeetServices.log() Detected XMPP server version: IQ Stanza (query jabber:iq:version) [to=focus@auth.vconference.streamed.co.in/focus3894188659474658,from=auth.vconference.streamed.co.in,id=9FmPl-227,type=result,]
+Jicofo 2020-03-09 07:13:54.744 INFO: [83] org.jitsi.jicofo.ComponentsDiscovery.log() Services re-discovery interval: 30000
+Jicofo 2020-03-09 07:13:54.745 INFO: [83] org.jitsi.jicofo.FocusManager.log() XMPP provider reg state: RegistrationState=Registered
+Jicofo 2020-03-09 07:13:58.065 SEVERE: [86] org.jitsi.xmpp.component.ComponentBase.log() Ping timeout for ID: 9FmPl-199
+Jicofo 2020-03-09 07:14:24.765 SEVERE: [93] org.jitsi.jicofo.discovery.DiscoveryUtil.discoverVersion().200 Failed to discover version, req: <iq to='jitsi-videobridge.vconference.streamed.co.in' id='9FmPl-246' type='get'><query xmlns='jabber:iq:version'></query></iq>, response: <iq to='focus@auth.vconference.streamed.co.in/focus3894188659474658' from='jitsi-videobridge.vconference.streamed.co.in' id='9FmPl-246' type='error'><error type='cancel'><service-unavailable xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/></error></iq>
+Jicofo 2020-03-09 07:14:24.766 INFO: [93] org.jitsi.jicofo.ComponentsDiscovery.log() New component discovered: jitsi-videobridge.vconference.streamed.co.in, null
+Jicofo 2020-03-09 07:14:24.766 INFO: [93] org.jitsi.jicofo.BridgeSelector.log() Added videobridge: jitsi-videobridge.vconference.streamed.co.in v: null
+Jicofo 2020-03-09 07:14:24.766 WARNING: [93] org.jitsi.jicofo.BridgeSelector.log() No pub-sub node mapped for jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:14:24.778 INFO: [84] org.jitsi.jicofo.JvbDoctor.log() Scheduled health-check task for: jitsi-videobridge.vconference.streamed.co.in
+Jicofo 2020-03-09 07:15:36.460 INFO: [100] org.jitsi.jicofo.xmpp.FocusComponent.handleConferenceIq().401 Focus request for room: 657890@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:15:36.482 INFO: [100] org.jitsi.jicofo.FocusManager.log() Created new focus for 657890@conference.vconference.streamed.co.in@auth.vconference.streamed.co.in. Conference count 1,options: 
+Jicofo 2020-03-09 07:15:36.484 INFO: [100] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Lip-sync enabled in 657890@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:15:36.490 INFO: [100] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Joining the room: 657890@conference.vconference.streamed.co.in
+Jicofo 2020-03-09 07:15:36.562 WARNING: [100] org.jitsi.xmpp.component.ComponentBase.log() PROCESSING TIME LIMIT EXCEEDED - it took 118ms to process: <iq type="set" to="focus.vconference.streamed.co.in" from="raaz@vconference.streamed.co.in/99b4f8a2-4567-46af-94a3-4b136b34e61f" id="71d90180-7995-4f6b-842d-11fe12a78deb:sendIQ"><conference xmlns="http://jitsi.org/protocol/focus" room="657890@conference.vconference.streamed.co.in" machine-uid="60cbbf44c4ce15730a0d635c272fc5d3"><property value="-1" name="channelLastN"/><property value="false" name="disableRtx"/><property value="true" name="enableLipSync"/><property value="true" name="openSctp"/></conference></iq>
+Jicofo 2020-03-09 07:15:36.676 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Chat room event ChatRoomMemberPresenceChangeEvent[type=MemberJoined sourceRoom=org.jitsi.impl.protocol.xmpp.ChatRoomImpl@5ccfbad9 member=ChatMember[657890@conference.vconference.streamed.co.in/385b3dd1, jid: null]@1501792425]
+Jicofo 2020-03-09 07:15:36.683 INFO: [27] org.jitsi.jicofo.ChatRoomRoleAndPresence.log() Granted owner to 657890@conference.vconference.streamed.co.in/385b3dd1
+Jicofo 2020-03-09 07:15:36.684 INFO: [27] org.jitsi.jicofo.JitsiMeetConferenceImpl.log() Member 657890@conference.vconference.streamed.co.in/385b3dd1 joined.
+Jicofo 2020-03-09 07:15:47.307 SEVERE: [120] org.jitsi.jicofo.recording.jibri.JibriSession.log() Unable to find an available Jibri, can't start
+Jicofo 2020-03-09 07:15:47.308 INFO: [120] org.jitsi.jicofo.recording.jibri.JibriRecorder.log() Failed to start a Jibri session, no Jibris available
+Jicofo 2020-03-09 07:47:21.659 SEVERE: [132] org.jitsi.jicofo.recording.jibri.JibriSession.log() Unable to find an available Jibri, can't start
+Jicofo 2020-03-09 07:47:21.661 INFO: [132] org.jitsi.jicofo.recording.jibri.JibriRecorder.log() Failed to start a Jibri session, no Jibris available
